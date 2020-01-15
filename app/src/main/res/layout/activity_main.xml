@@ -10,7 +10,7 @@
 
         <TextView
             android:id="@+id/txtName"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
             app:layout_constraintLeft_toLeftOf="parent"
@@ -18,7 +18,7 @@
             app:layout_constraintTop_toTopOf="parent" />
         <TextView
             android:id="@+id/txtOccupation"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/txtName"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -36,14 +36,16 @@
             />
         <EditText
             android:id="@+id/edtName"
-            android:layout_width="match_parent"
+            android:hint="Name"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/btnSummit"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"/>
         <EditText
             android:id="@+id/edtOccupation"
-            android:layout_width="match_parent"
+            android:hint="Occupation"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/edtName"
             app:layout_constraintLeft_toLeftOf="parent"
